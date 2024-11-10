@@ -70,7 +70,7 @@ function sendemail_verify($name, $email, $verify_token)
             <div class='container'>
                 <h2>Welcome to Barangay Puncan Certificate Issuance System, " . htmlspecialchars($name) . "!</h2>
                 <p>Thank you for signing up! To complete your registration, please click the button below to verify your email address.</p>
-                <a href='192.168.137.1/certificateissuancesystem/verify_email.php?token=" . htmlspecialchars($verify_token) . "' class='button'>Verify Email Address</a>
+                <a href='http://localhost/certificateissuancesystem/verify_email.php?token=" . htmlspecialchars($verify_token) . "' class='button'>Verify Email Address</a>
                 <div class='footer'>
                     <p>Kind regards,<br>Barangay Puncan, Carranglan Nueva Ecija</p>
                 </div>
