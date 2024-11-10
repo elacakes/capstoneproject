@@ -33,7 +33,7 @@ function send_password_reset($get_name, $get_email, $token)
         <h2 style='color: #333;'>Password Reset Request</h2>
         <p>Hello,</p>
         <p>We received a request to reset your password. If you made this request, please click the button below:</p>
-        <a href='192.168.137.1/certificateissuancesystem/password_change.php?token=$token&email=$get_email' 
+        <a href='http://localhost/certificateissuancesystem/password_change.php?token=$token&email=$get_email' 
            style='display: inline-block; padding: 10px 15px; font-size: 16px; color: white; background-color: #ff0000; border-radius: 5px; text-decoration: none;'> 
            Reset Password 
         </a>
